@@ -1,0 +1,222 @@
+{
+    "1": {
+        "title": "Fragentitel 1",
+        "question": "Das ist Fragestellung 1",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 1"
+    },
+    "2": {
+        "title": "Fragentitel 2",
+        "question": "Das ist Fragestellung 2",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 2"
+    },
+    "3": {
+        "title": "Fragentitel 3",
+        "question": "Das ist Fragestellung 3",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 3"
+    },
+    "4": {
+        "title": "Fragentitel 4",
+        "question": "Das ist Fragestellung 4",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 4"
+    },
+    "5": {
+        "title": "Fragentitel 5",
+        "question": "Das ist Fragestellung 5",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 5"
+    },
+    "6": {
+        "title": "Fragentitel 6",
+        "question": "Das ist Fragestellung 6",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 6"
+    },
+    "7": {
+        "title": "Fragentitel 7",
+        "question": "Das ist Fragestellung 7",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 7"
+    },
+    "8": {
+        "title": "Fragentitel 8",
+        "question": "Das ist Fragestellung 8",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 8"
+    },
+    "9": {
+        "title": "Fragentitel 9",
+        "question": "Das ist Fragestellung 9",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 9"
+    },
+    "10": {
+        "title": "Fragentitel 10",
+        "question": "Das ist Fragestellung 10",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 10"
+    },
+    "11": {
+        "title": "Fragentitel 11",
+        "question": "Das ist Fragestellung 11",
+        "image": false,
+        "answers": {
+            "1": {
+                "text": "Antwort 1",
+                "correct": false
+            },
+            "2": {
+                "text": "Antwort 2",
+                "correct": true
+            },
+            "3": {
+                "text": "Antwort 3",
+                "correct": false
+            }
+        },
+        "explanation": "Das ist die Erklärung zu Frage 11"
+    }
+}
