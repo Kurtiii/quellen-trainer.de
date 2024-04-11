@@ -1,119 +1,119 @@
 {
     "1": {
-        "title": "Fragentitel 1",
-        "question": "Das ist Fragestellung 1",
+        "title": "Welche der folgenden Quellenangaben ist richtig?",
+        "question": "Du nutzt das Buch 'Die Physiker' von Friedrich Dürrenmatt. Es handelt sich um das 7. Band vom Diogenes-Verlag. Welche der folgenden Quellenangaben ist richtig?",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
+                "text": "Dürrenmatt, Friedrich. Band 7. Die Physiker. Diogenes (1980)",
                 "correct": false
             },
             "2": {
-                "text": "Antwort 2",
-                "correct": true
+                "text": "Die Physiker. Diogenes. (1980). Dürrenmatt, Friedrich.",
+                "correct": false
             },
             "3": {
-                "text": "Antwort 3",
-                "correct": false
+                "text": "Dürrenmatt, Friedrich. (1980). Die Physiker (7. Band). Diogenes.",
+                "correct": true
             }
         },
         "explanation": "Das ist die Erklärung zu Frage 1"
     },
     "2": {
-        "title": "Fragentitel 2",
-        "question": "Das ist Fragestellung 2",
+        "title": "Welche Antwort ist richtig?",
+        "question": "Was ist der Titel des Sammelwerks bei einem YouTube-Video?",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
+                "text": "Internet",
                 "correct": false
             },
             "2": {
-                "text": "Antwort 2",
+                "text": "YouTube",
                 "correct": true
             },
             "3": {
-                "text": "Antwort 3",
+                "text": "Der Name des YouTube-Kanals",
                 "correct": false
             }
         },
         "explanation": "Das ist die Erklärung zu Frage 2"
     },
     "3": {
-        "title": "Fragentitel 3",
-        "question": "Das ist Fragestellung 3",
+        "title": "Welche der folgenden Quellenangaben ist richtig?",
+        "question": "Du hast einen Artikel von welt.de als Quelle verwendet.",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
-                "correct": false
-            },
-            "2": {
-                "text": "Antwort 2",
+                "text": "Martin Klemmrath (11.04.2024). Wie aus dem Pressman der Walkman wurde. (Welt Online) https://www.welt.de/geschichte/article249453906/Musik-fuer-unterwegs-Vom-Pressman-zum-Walkman.html",
                 "correct": true
             },
+            "2": {
+                "text": "Wie aus dem Pressman der Walkman wurde. https://www.welt.de/geschichte/article249453906/Musik-fuer-unterwegs-Vom-Pressman-zum-Walkman.html von Martin",
+                "correct": false
+            },
             "3": {
-                "text": "Antwort 3",
+                "text": "Klemmrath. Wie aus dem Pressman der Walkman wurde. https://www.welt.de/geschichte/article249453906/Musik-fuer-unterwegs-Vom-Pressman-zum-Walkman.html",
                 "correct": false
             }
         },
         "explanation": "Das ist die Erklärung zu Frage 3"
     },
     "4": {
-        "title": "Fragentitel 4",
-        "question": "Das ist Fragestellung 4",
+        "title": "Welche der folgenden Quellenangaben ist richtig?",
+        "question": "Du verwendest ein Gesetz aus dem Bürgerlichen Gesetzbuch.",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
+                "text": "§ 81 Absatz 1 Satz 3 BGB Stiftungsgesetz - Im Stiftungsgeschäft muss der Stifter 1. der Stiftung eine Satzung geben, die mindestens Bestimmungen enthalten muss über a) den Zweck der Stiftung, b) den Namen der Stiftung, c) den Sitz der Stiftung und d) die Bildung des Vorstands der Stiftung sowie 2. zur Erfüllung des von ihm vorgegebenen Stiftungszwecks ein Vermögen widmen (gewidmetes Vermögen), das der Stiftung zu deren eigener Verfügung zu überlassen ist.",
                 "correct": false
             },
             "2": {
-                "text": "Antwort 2",
+                "text": "§ 81 Absatz 1 Satz 3 BGB Stiftungsgesetz",
                 "correct": true
             },
             "3": {
-                "text": "Antwort 3",
+                "text": "§ 81 Absatz 1 Satz 3 BGB",
                 "correct": false
             }
         },
         "explanation": "Das ist die Erklärung zu Frage 4"
     },
     "5": {
-        "title": "Fragentitel 5",
-        "question": "Das ist Fragestellung 5",
+        "title": "Wo sollte eine Quellenangabe stehen?",
+        "question": "",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
+                "text": "Im Literaturverzeichnis am Ende der Arbeit",
                 "correct": false
             },
             "2": {
-                "text": "Antwort 2",
-                "correct": true
+                "text": "Unten am Ende der Seite, auf der die Quelle verwendet wird",
+                "correct": false
             },
             "3": {
-                "text": "Antwort 3",
-                "correct": false
+                "text": "Mit einem Verweis im Text und einer ausführlichen Quellenangabe im Literaturverzeichnis",
+                "correct": true
             }
         },
         "explanation": "Das ist die Erklärung zu Frage 5"
     },
     "6": {
-        "title": "Fragentitel 6",
-        "question": "Das ist Fragestellung 6",
+        "title": "Welche der folgenden Quellenangaben ist richtig?",
+        "question": "Du verwendest Informationen aus dem Film Titanic von James Cameron. Welche der folgenden Quellenangaben ist richtig?",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
+                "text": "Titanic. James Cameron. (1997).",
                 "correct": false
             },
             "2": {
-                "text": "Antwort 2",
+                "text": "James Cameron (Produzent) & James Cameron (Regisseur). (1997). Titanic. Hollywood, CA: Paramount Pictures.",
                 "correct": true
             },
             "3": {
-                "text": "Antwort 3",
+                "text": "Hollywood, CA: Paramount Pictures. Titanic. James Cameron. (1997).",
                 "correct": false
             }
         },

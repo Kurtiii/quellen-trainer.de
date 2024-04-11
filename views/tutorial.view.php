@@ -77,7 +77,15 @@
             Allgemeines zur Quellenangabe
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellendus, pariatur reprehenderit cupiditate omnis nemo libero? Voluptate culpa dolorum veritatis mollitia illo voluptates! Nisi eligendi, quos molestiae officiis at odit!
+            Eine Quellenangabe besteht aus verschiedenen Teilen, die in einer bestimmten Reihenfolge angegeben werden müssen.
+            Sie wird in wissenschaftlichen Arbeiten verwendet, um die Herkunft von Informationen und fremden Gedanken aufzuzeigen.
+            Eine korrekte Quellenangabe besteht aus folgenden Teilen:
+        <ol>
+            <li>einem Verweis im Text</li>
+            <li>einem Eintrag ins Literaturverzeichnis, das am Ende der Arbeit angefügt wird</li>
+        </ol>
+        Auf dieser Seite zeigen wir dir, wie du Quellenangaben für verschiedene Medien erstellst.
+        Wir verwenden dabei den APA-7 Standard, der in vielen wissenschaftlichen Arbeiten verwendet wird.
         </p>
 
         <hr class="my-4">
@@ -87,7 +95,22 @@
             Bücher
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellendus, pariatur reprehenderit cupiditate omnis nemo libero? Voluptate culpa dolorum veritatis mollitia illo voluptates! Nisi eligendi, quos molestiae officiis at odit!
+            <b>So geht's:</b><br>
+            <span class="bg-primary bg-opacity-25">primäre Beiträger</span>
+            (<span class="bg-danger bg-opacity-25">Veröffentlichungsdatum</span>).
+            <span class="bg-warning bg-opacity-25">Titel</span>
+            (<span class="bg-success bg-opacity-25">Auflage</span>).
+            <span class="bg-dark bg-opacity-25">Herausgeber</span>.
+            <span class="bg-info bg-opacity-25">Verlag</span>.
+        </p>
+        <p>
+            <b>Beispiel:</b><br>
+            <span class="bg-primary bg-opacity-25">Müller, M.</span>
+            (<span class="bg-danger bg-opacity-25">2021</span>).
+            <span class="bg-warning bg-opacity-25">Ein total unbekanntes Buch</span>
+            (<span class="bg-success bg-opacity-25">2. Auflage</span>).
+            <span class="bg-dark bg-opacity-25">Hans Müller</span>.
+            <span class="bg-info bg-opacity-25">Verlag Müller</span>.
         </p>
 
         <h3 id="internet" class="mt-5">
@@ -95,15 +118,41 @@
             Internetseiten
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellendus, pariatur reprehenderit cupiditate omnis nemo libero? Voluptate culpa dolorum veritatis mollitia illo voluptates! Nisi eligendi, quos molestiae officiis at odit!
+            <b>So geht's:</b><br>
+            <span class="bg-primary bg-opacity-25">primäre Beiträger</span>
+            (<span class="bg-danger bg-opacity-25">Veröffentlichungsdatum</span>).
+            <span class="bg-warning bg-opacity-25">Titel</span>
+            (<span class="bg-success bg-opacity-25">Titel des Sammelwerks</span>).
+            <span class="bg-dark bg-opacity-25">URL</span>
+        </p>
+        <p>
+            <b>Beispiel:</b><br>
+            <span class="bg-primary bg-opacity-25">Müller, M.</span>
+            (<span class="bg-danger bg-opacity-25">2021</span>).
+            <span class="bg-warning bg-opacity-25">Warum Gänse besser sind als Enten</span>
+            (<span class="bg-success bg-opacity-25">Tierwelt</span>).
+            <span class="bg-dark bg-opacity-25">https://www.tierwelt.de/gaense-vs-enten</span>
         </p>
 
-        <h3 id="gesetze" class="mt-5">
+        <h3 id=" gesetze" class="mt-5">
             <i class="fa-regular fa-gavel me-1"></i>
             Gesetze
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellendus, pariatur reprehenderit cupiditate omnis nemo libero? Voluptate culpa dolorum veritatis mollitia illo voluptates! Nisi eligendi, quos molestiae officiis at odit!
+            <b>So geht's:</b><br>
+            <span class="bg-primary bg-opacity-25">Paragraph</span>
+            <span class="bg-danger bg-opacity-25">Absatz</span>
+            <span class="bg-warning bg-opacity-25">Satz</span>
+            <span class="bg-success bg-opacity-25">Buchstaben</span>
+            <span class="bg-dark bg-opacity-25">Kurztitel des Gesetzes</span>
+        </p>
+        <p>
+            <b>Beispiel:</b><br>
+            <span class="bg-primary bg-opacity-25">§ 81</span>
+            <span class="bg-danger bg-opacity-25">Absatz 1</span>
+            <span class="bg-warning bg-opacity-25">Satz 3</span>
+            <span class="bg-success bg-opacity-25">BGB</span>
+            <span class="bg-dark bg-opacity-25">Stiftungsgesetz</span>
         </p>
 
         <h3 id="filme" class="mt-5">
@@ -111,7 +160,22 @@
             Filme
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellendus, pariatur reprehenderit cupiditate omnis nemo libero? Voluptate culpa dolorum veritatis mollitia illo voluptates! Nisi eligendi, quos molestiae officiis at odit!
+            <b>So geht's:</b><br>
+            <span class="bg-primary bg-opacity-25">Produzent</span> (Produzent) &
+            (<span class="bg-danger bg-opacity-25">Regisseur</span>) (Regisseur).
+            <span class="bg-warning bg-opacity-25">Jahr</span>.
+            <span class="bg-success bg-opacity-25">Titel</span>.
+            <span class="bg-dark bg-opacity-25">Produktionsort</span>:
+            <span class="bg-info bg-opacity-25">Produktionsfirma</span>.
+        </p>
+        <p>
+            <b>Beispiel:</b><br>
+            <span class="bg-primary bg-opacity-25">Müller, M.</span> (Produzent) &
+            (<span class="bg-danger bg-opacity-25">Schmidt, S.</span>) (Regisseur).
+            <span class="bg-warning bg-opacity-25">2021</span>.
+            <span class="bg-success bg-opacity-25">Der Kampf der Riesenente 🦆</span>.
+            <span class="bg-dark bg-opacity-25">Gartenteich</span>:
+            <span class="bg-info bg-opacity-25">QuackProductions GmbH</span>.
         </p>
 
         <h3 id="youtube" class="mt-5">
@@ -119,7 +183,23 @@
             YouTube-Videos
         </h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellendus, pariatur reprehenderit cupiditate omnis nemo libero? Voluptate culpa dolorum veritatis mollitia illo voluptates! Nisi eligendi, quos molestiae officiis at odit!
+            <b>So geht's:</b><br>
+            <span class="bg-primary bg-opacity-25">primäre Beiträger</span>
+            (<span class="bg-danger bg-opacity-25">Veröffentlichungsdatum</span>).
+            <span class="bg-warning bg-opacity-25">Titel</span>
+            (<span class="bg-success bg-opacity-25">[Genre]</span>).
+            <span class="bg-dark bg-opacity-25">Titel des Sammelwerks</span>.
+            <span class="bg-info bg-opacity-25">URL</span>
+        </p>
+
+        <p>
+            <b>Beispiel:</b><br>
+            <span class="bg-primary bg-opacity-25">Rick Astley</span>
+            (<span class="bg-danger bg-opacity-25">2009</span>).
+            <span class="bg-warning bg-opacity-25">Never Gonna Give You Up (Official Music Video)</span>
+            (<span class="bg-success bg-opacity-25">[Musikvideo]</span>).
+            <span class="bg-dark bg-opacity-25">YouTube</span>.
+            <span class="bg-info bg-opacity-25">https://youtu.be/dQw4w9WgXcQ</span>
         </p>
 
         <hr class="my-4">

@@ -58,15 +58,31 @@
             </div>
         </div>
 
-        <div id="questionBox" style="display: none;">
-            <div class="row">
-                <div class="col-12">
-                    <h1 id="questionTitle">Willkommen zum Quiz!</h1>
-                    <p id="questionDescription">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim doloremque in porro facilis! Expedita aliquid consequatur ipsa ipsam. Adipisci dolore suscipit accusantium sed veritatis voluptates ad animi. Numquam, error.
-                    </p>
+        <div id="questionBox" style="display: none;" class="mb-5">
+            <div id="progressBox" class="my-4" style="visibility: none;">
+                <span class="form-text">
+                    Nächste Frage in...
+                </span>
+                <div class="progress mt-2" role="progressbar" id="progressBar">
+                    <div class="progress-bar" style="width: 100%"></div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 id="questionTitle">Willkommen zum Quiz!</h1>
+                            <p id="questionDescription">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim doloremque in porro facilis! Expedita aliquid consequatur ipsa ipsam. Adipisci dolore suscipit accusantium sed veritatis voluptates ad animi. Numquam, error.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <img src="https://placehold.co/400x300" class="img-fluid mt-4" alt="Bild zur Frage" id="questionImage">
+                </div>
+            </div>
+
 
             <div class="card mt-5" onclick="answer(1);" id="answer1">
                 <div class="card-body">
@@ -83,16 +99,6 @@
                     Antwort C
                 </div>
             </div>
-
-            <div id="progressBox" class="mt-5" style="display: none;">
-                <span class="form-text">
-                    Nächste Frage in...
-                </span>
-                <div class="progress mt-2" role="progressbar" id="progressBar">
-                    <div class="progress-bar" style="width: 100%"></div>
-                </div>
-            </div>
-
         </div>
 
         <div id="resultBox" style="display: none;">
@@ -152,6 +158,7 @@
             $("#questionBox").hide();
             $("#progressBox").hide();
             $("#loaderBox").show();
+            $("#questionImage").hide();
 
             $("#answer1").removeClass("bg-success text-success bg-danger text-danger bg-opacity-25 fw-bold text-decoration-underline");
             $("#answer2").removeClass("bg-success text-success bg-danger text-danger bg-opacity-25 fw-bold text-decoration-underline");
@@ -179,7 +186,6 @@
             const question = questions[Math.floor(Math.random() * Object.keys(questions).length + 1)];
             shownQuestions.push(question);
             currentQuestion = question;
-            console.log(question);
 
             $("#questionCounter").text(questionCounter);
             $("#questionTitle").text(question.title);
@@ -187,6 +193,14 @@
             $("#answer1 .card-body").text(question.answers[1].text);
             $("#answer2 .card-body").text(question.answers[2].text);
             $("#answer3 .card-body").text(question.answers[3].text);
+
+            if (question.image !== false) {
+                $("#questionImage").attr("src", question.image);
+                $("#questionImage").show();
+            } else {
+                $("#questionImage").attr("src", "");
+                $("#questionImage").hide();
+            }
 
             startTimer();
             $("#questionBox").show();
