@@ -22,7 +22,6 @@
                 <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>" class="nav-link">Startseite</a></li>
                 <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>tutorial" class="nav-link">Tutorial</a></li>
                 <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>quiz/pre-start" class="nav-link active" aria-current="page">Quiz</a></li>
-                <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>about" class="nav-link">Über</a></li>
             </ul>
         </header>
 
@@ -39,7 +38,7 @@
             </div>
             <div class="col-6 text-center">
                 <h1>Quiz</h1>
-                <span class="text-muted">Frage 0 von 10</span>
+                <span class="text-muted">Frage 0 von 5</span>
             </div>
             <div class="col-3 text-end">
                 <span class="fs-3 fw-bold">
@@ -61,7 +60,24 @@
             </a>
         </div>
 
-        <script src="<?= $_CONFIG['base_url']; ?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
+        <hr class="my-5">
+        <div class="mb-5">
+            <footer class="text-center">
+                <p class="text-muted fs-5 mb-0 pb-0">
+                    Made with 🪿 by <a href="https://kurt-krueger.com/" class="text-primary text-decoration-none">Kurt</a>
+                </p>
+                <p class="form-text">
+                    <a href="https://github.com/Kurtiii/quellen-trainer.de" class="text-reset">Quellcode</a>
+                    <span class="mx-1">·</span>
+                    <a href="https://kurtiii.de/privacy/" class="text-reset">Datenschutz</a>
+                    <span class="mx-1">·</span>
+                    <a href="https://kurtiii.de/privacy/" class="text-reset">Impressum</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="<?= $_CONFIG['base_url']; ?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

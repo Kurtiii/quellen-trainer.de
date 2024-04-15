@@ -17,7 +17,7 @@
                 "correct": true
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 1"
+        "explanation": "Die korrekte Reihenfolge der Autoren, des Titels, des Erscheinungsjahres, der Auflage und des Verlags ist wichtig. Beachten Sie auch, dass der Verlag in der Quellenangabe angegeben werden muss."
     },
     "2": {
         "title": "Welche Antwort ist richtig?",
@@ -57,7 +57,7 @@
                 "correct": false
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 3"
+        "explanation": "Die korrekte Reihenfolge des Autors, des Veröffentlichungsdatums, des Titels des Artikels, des Namens der Website und der URL ist wichtig. Beachten Sie auch, dass der Titel des Artikels kursiv gesetzt wird."
     },
     "4": {
         "title": "Welche der folgenden Quellenangaben ist richtig?",
@@ -77,7 +77,7 @@
                 "correct": false
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 4"
+        "explanation": "Die korrekte Angabe des Paragraphen, des Absatzes und des Satzes des Gesetzes ist wichtig. Bei Gesetzen müssen Sie auch den Titel des Gesetzes angeben, wenn er vorhanden ist. Beachten Sie auch, dass der Titel des Gesetzes kursiv gesetzt wird."
     },
     "5": {
         "title": "Wo sollte eine Quellenangabe stehen?",
@@ -97,7 +97,7 @@
                 "correct": true
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 5"
+        "explanation": "Die korrekte Art der Quellenangabe hängt von den Anforderungen Ihrer Arbeit und den Richtlinien des jeweiligen Fachgebiets ab. In wissenschaftlichen Arbeiten ist es üblich, im Text auf die Quelle zu verweisen und eine ausführliche Quellenangabe im Literaturverzeichnis am Ende der Arbeit anzugeben."
     },
     "6": {
         "title": "Welche der folgenden Quellenangaben ist richtig?",
@@ -117,106 +117,66 @@
                 "correct": false
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 6"
+        "explanation": "Bei Filmen müssen die folgenden Informationen in der Quellenangabe enthalten sein: Der Name des Regisseurs, der Name des Produzenten, das Erscheinungsjahr, der Titel des Films, der Produktionsort und der Produktionsverlag. Beachten Sie auch, dass der Titel des Films kursiv gesetzt wird."
     },
     "7": {
-        "title": "Fragentitel 7",
-        "question": "Das ist Fragestellung 7",
+        "title": "Welche der folgenden Angaben ist für eine Zeitschriftenquelle korrekt?",
+        "question": "Sie haben einen Artikel aus der Zeitschrift 'Der Spiegel' verwendet. Der Artikel hat den Titel 'Digitalisierung im Gesundheitswesen: Wie KI die Medizin verändert' und wurde von Dr. med. Peter Müller verfasst. Die Ausgabe der Zeitschrift ist 23/2023 und die Seitenzahlen des Artikels sind 42-45. Welche der folgenden Quellenangaben ist korrekt?",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
-                "correct": false
-            },
-            "2": {
-                "text": "Antwort 2",
+                "text": "Müller, Peter (2023). Digitalisierung im Gesundheitswesen: Wie KI die Medizin verändert. Der Spiegel, 23(2023), 42-45.",
                 "correct": true
             },
+            "2": {
+                "text": "Der Spiegel (2023). Digitalisierung im Gesundheitswesen: Wie KI die Medizin verändert. Von Dr. med. Peter Müller. 23(2023), 42-45.",
+                "correct": false
+            },
             "3": {
-                "text": "Antwort 3",
+                "text": "Müller, Peter. Digitalisierung im Gesundheitswesen: Wie KI die Medizin verändert. Der Spiegel (2023). 23(2023), 42-45.",
                 "correct": false
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 7"
+        "explanation": "Die korrekte Reihenfolge der Autoren, des Titels, der Zeitschrift, des Jahrgangs, der Ausgabe und der Seitenzahlen ist wichtig. Beachten Sie auch, dass bei Zeitschriftenartikeln der Name der Zeitschrift kursiv gesetzt wird."
     },
     "8": {
-        "title": "Fragentitel 8",
-        "question": "Das ist Fragestellung 8",
+        "title": "Wie zitiere ich ein Buch mit mehreren Autoren?",
+        "question": "Sie haben ein Buch mit dem Titel 'Einführung in die Psychologie' von den Autoren Hans Mayer und Sabine Schmidt verwendet. Das Buch wurde im Jahr 2020 im Beltz-Verlag veröffentlicht. Welche der folgenden Quellenangaben ist korrekt?",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
-                "correct": false
-            },
-            "2": {
-                "text": "Antwort 2",
+                "text": "Mayer, Hans & Schmidt, Sabine (2020). Einführung in die Psychologie. Weinheim, Deutschland: Beltz.",
                 "correct": true
             },
+            "2": {
+                "text": "Einführung in die Psychologie. Hans Mayer & Sabine Schmidt (2020). Weinheim, Deutschland: Beltz.",
+                "correct": false
+            },
             "3": {
-                "text": "Antwort 3",
+                "text": "Beltz. Einführung in die Psychologie. Hans Mayer & Sabine Schmidt (2020).",
                 "correct": false
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 8"
+        "explanation": "Bei Büchern mit mehreren Autoren werden die Namen der Autoren durch ein '&'-Zeichen verbunden. Der erste Autor steht an erster Stelle, gefolgt von den weiteren Autoren in alphabetischer Reihenfolge. Beachten Sie auch, dass der Verlagsort und der Verlag in der Quellenangabe angegeben werden müssen."
     },
     "9": {
-        "title": "Fragentitel 9",
-        "question": "Das ist Fragestellung 9",
+        "title": "Wie zitiere ich eine Website?",
+        "question": "Sie haben Informationen von der Website 'Wikipedia' verwendet. Der Artikel, den Sie verwendet haben, hat den Titel 'Zweiter Weltkrieg' und die URL ist https://en.wikipedia.org/wiki/World_War_II. Wie zitieren Sie diese Quelle korrekt?",
         "image": false,
         "answers": {
             "1": {
-                "text": "Antwort 1",
-                "correct": false
-            },
-            "2": {
-                "text": "Antwort 2",
+                "text": "Zweiter Weltkrieg. (2024, 14. April). In Wikipedia, Die freie Enzyklopädie. https://en.wikipedia.org/wiki/World_War_II. Abgerufen am 15. April 2024.",
                 "correct": true
             },
+            "2": {
+                "text": "Wikipedia. (2024). Zweiter Weltkrieg. https://en.wikipedia.org/wiki/World_War_II",
+                "correct": false
+            },
             "3": {
-                "text": "Antwort 3",
+                "text": "Zweiter Weltkrieg. https://en.wikipedia.org/wiki/World_War_II",
                 "correct": false
             }
         },
-        "explanation": "Das ist die Erklärung zu Frage 9"
-    },
-    "10": {
-        "title": "Fragentitel 10",
-        "question": "Das ist Fragestellung 10",
-        "image": false,
-        "answers": {
-            "1": {
-                "text": "Antwort 1",
-                "correct": false
-            },
-            "2": {
-                "text": "Antwort 2",
-                "correct": true
-            },
-            "3": {
-                "text": "Antwort 3",
-                "correct": false
-            }
-        },
-        "explanation": "Das ist die Erklärung zu Frage 10"
-    },
-    "11": {
-        "title": "Fragentitel 11",
-        "question": "Das ist Fragestellung 11",
-        "image": false,
-        "answers": {
-            "1": {
-                "text": "Antwort 1",
-                "correct": false
-            },
-            "2": {
-                "text": "Antwort 2",
-                "correct": true
-            },
-            "3": {
-                "text": "Antwort 3",
-                "correct": false
-            }
-        },
-        "explanation": "Das ist die Erklärung zu Frage 11"
+        "explanation": "Bei Websites müssen die folgenden Informationen in der Quellenangabe enthalten sein: Der Titel der Website, das Datum der Veröffentlichung (falls vorhanden), die URL und das Datum, an dem Sie auf die Website zugegriffen haben. Beachten Sie auch, dass der Titel der Website kursiv gesetzt wird."
     }
 }

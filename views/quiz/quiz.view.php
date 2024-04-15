@@ -22,7 +22,6 @@
                 <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>" class="nav-link">Startseite</a></li>
                 <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>tutorial" class="nav-link">Tutorial</a></li>
                 <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>quiz/pre-start" class="nav-link active" aria-current="page">Quiz</a></li>
-                <li class="nav-item"><a href="<?= $_CONFIG['base_url']; ?>about" class="nav-link">Über</a></li>
             </ul>
         </header>
 
@@ -39,7 +38,7 @@
             </div>
             <div class="col-6 text-center">
                 <h1>Quiz</h1>
-                <span class="text-muted">Frage <span id="questionCounter">0</span> von 10</span>
+                <span class="text-muted">Frage <span id="questionCounter">0</span> von 5</span>
             </div>
             <div class="col-3 text-end">
                 <span class="fs-3 fw-bold" id="time">
@@ -99,6 +98,11 @@
                     Antwort C
                 </div>
             </div>
+
+            <button id="btnExplanation" class="btn btn-outline-primary mt-4" data-bs-toggle="modal" data-bs-target="#modalExplaination">
+                <i class="fa-regular fa-info-circle me-2"></i>
+                Erklärung anzeigen
+            </button>
         </div>
 
         <div id="resultBox" style="display: none;">
@@ -110,7 +114,7 @@
                 </p>
                 <h3>
                     <i class="fa-regular fa-check-to-slot text-primary me-2"></i>
-                    <span id="correctAnswers">0</span> von 10 Fragen richtig beantwortet
+                    <span id="correctAnswers">0</span> von 5 Fragen richtig beantwortet
                 </h3>
                 <h3>
                     <i class="fa-regular fa-stopwatch-20 text-primary me-2"></i>
@@ -126,6 +130,39 @@
             </div>
         </div>
 
+        <hr class="my-5">
+        <div class="mb-5">
+            <footer class="text-center">
+                <p class="text-muted fs-5 mb-0 pb-0">
+                    Made with 🪿 by <a href="https://kurt-krueger.com/" class="text-primary text-decoration-none">Kurt</a>
+                </p>
+                <p class="form-text">
+                    <a href="https://github.com/Kurtiii/quellen-trainer.de" class="text-reset">Quellcode</a>
+                    <span class="mx-1">·</span>
+                    <a href="https://kurtiii.de/privacy/" class="text-reset">Datenschutz</a>
+                    <span class="mx-1">·</span>
+                    <a href="https://kurtiii.de/privacy/" class="text-reset">Impressum</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal -> Explaination -->
+    <div class="modal fade" id="modalExplaination" tabindex="-1" aria-labelledby="modalExplaination" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalExplainationLabel">
+                        <i class="fa-regular fa-info-circle me-2"></i>
+                        Erklärung
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="explainationText">
+                    <p>Einen Moment bitte...</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="<?= $_CONFIG['base_url']; ?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
@@ -166,7 +203,7 @@
 
             $(".progress-bar").css("width", "100%");
 
-            if (questionCounter >= 10) {
+            if (questionCounter >= 5) {
                 // show result
                 stopTimer();
                 $("#questionBox").hide();
@@ -183,13 +220,23 @@
 
             questionCounter++;
 
-            const question = questions[Math.floor(Math.random() * Object.keys(questions).length + 1)];
+            function getRandomQuestion() {
+                var question = questions[Math.floor(Math.random() * Object.keys(questions).length + 1)];
+                if (shownQuestions.includes(question)) {
+                    return getRandomQuestion();
+                }
+                return question;
+            }
+
+            var question = getRandomQuestion();
             shownQuestions.push(question);
             currentQuestion = question;
+            console.log(question);
 
             $("#questionCounter").text(questionCounter);
             $("#questionTitle").text(question.title);
             $("#questionDescription").text(question.question);
+            $("#explainationText").html(question.explanation);
             $("#answer1 .card-body").text(question.answers[1].text);
             $("#answer2 .card-body").text(question.answers[2].text);
             $("#answer3 .card-body").text(question.answers[3].text);
